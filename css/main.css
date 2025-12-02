@@ -25,6 +25,27 @@ a {
     width: 100%;
 }
 
+.paragraph-about {
+    font-size: 40px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.about-me-header {
+    font-size: 96px;
+    font-weight: 900;
+    color: #fff
+}
+
+.btn1 {
+    font-size: 30px;
+    font-weight: 800;
+    color: #fff;
+    background-color: #FF7F00;
+    padding: 14px 21px 14px 21px;
+    border-radius: 25px;
+}
+
 header.logo {
     text-transform: uppercase;
     font-size: 48px;
@@ -88,4 +109,57 @@ header.logo {
     display: flex;
     justify-content: center;
     padding-bottom: 10px;
+}
+
+.info1-start {
+    display: flex;
+    align-items: center;
+    gap: 80px;
+}
+
+.info1-end {
+    display: flex;
+    align-items: center;
+    gap: 29px;
+}
+
+.info1-end>div {
+    display: flex;
+    flex-direction: column;
+    gap: 43px;
+}
+
+.info2-start {
+    display: flex;
+    align-items: center;
+    gap: 35px
+}
+
+.info2-end {
+    display:flex;
+    align-content: center;
+    gap:45px
+}
+
+.info2-end>div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 48px;
+}
+
+.info3 {
+    display: flex
+}
+
+.info3>div {
+    display: flex;
+    flex-direction: column;
+}
+
+.info3>div>p {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    text-align: center;
+    padding: 10px
 }
