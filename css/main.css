@@ -44,6 +44,12 @@ a {
     background-color: #FF7F00;
     padding: 14px 21px 14px 21px;
     border-radius: 25px;
+    transition: all 500ms ease;
+}
+
+.btn1:hover {
+    cursor: pointer;
+    transform: scale(1.1);
 }
 
 header.logo {
@@ -98,6 +104,7 @@ header.logo {
     transition: all 500ms ease;
     font-size: 36px;
     font-weight: 800;
+    margin-bottom: 15px;
 }
 
 .hero--info .btn:hover {
@@ -111,6 +118,14 @@ header.logo {
     padding-bottom: 10px;
 }
 
+.about-me {
+    margin-top: 100px;
+}
+
+.about-me-header {
+    text-align: center;
+}
+
 .info1-start {
     display: flex;
     align-items: center;
@@ -121,6 +136,7 @@ header.logo {
     display: flex;
     align-items: center;
     gap: 29px;
+    justify-content: flex-end;
 }
 
 .info1-end>div {
@@ -132,13 +148,16 @@ header.logo {
 .info2-start {
     display: flex;
     align-items: center;
-    gap: 35px
+    gap: 35px;
+    margin-top: 64px;
 }
 
 .info2-end {
     display:flex;
     align-content: center;
-    gap:45px
+    gap:45px;
+    justify-content: flex-end;
+    margin-top: 99px;
 }
 
 .info2-end>div {
@@ -149,12 +168,15 @@ header.logo {
 }
 
 .info3 {
-    display: flex
+    display: flex;
+    justify-content: center;
+    margin-top: 200px
 }
 
 .info3>div {
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 .info3>div>p {
