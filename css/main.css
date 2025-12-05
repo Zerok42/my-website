@@ -12,6 +12,19 @@ body {
     font-size: 16px
 }
 
+::-webkit-scrollbar {
+    width:10px;
+}
+
+::-webkit-scrollbar-track {
+    background: rgba(0,0,0,1);
+}
+
+::-webkit-scrollbar-thumb {
+    background: #fff;
+    border-radius: 1px
+}
+
 a {
     text-decoration: none;
 }
@@ -62,7 +75,7 @@ header.logo {
 
 .hero-container {
     position: relative;
-    padding-top: 121px;
+    margin-top: 150px;
     overflow:hidden;
     display: grid;
     grid-template-columns: 5fr 5fr;
@@ -119,7 +132,7 @@ header.logo {
 }
 
 .about-me {
-    margin-top: 100px;
+    margin-top: 250px;
 }
 
 .about-me-header {
@@ -170,7 +183,8 @@ header.logo {
 .info3 {
     display: flex;
     justify-content: center;
-    margin-top: 200px
+    margin-top: 200px;
+    margin-bottom: 60px;
 }
 
 .info3>div {
@@ -183,5 +197,32 @@ header.logo {
     background-color: rgba(0, 0, 0, 0.5);
     border-radius: 15px;
     text-align: center;
-    padding: 10px
+    padding: 10px;
+    margin-bottom: 10px
+}
+
+footer {
+    background: #160B0B;
+    display: grid;
+    text-align: center;
+    align-items: center;
+    font-size: 32px;
+    font-weight: 600;
+    color: #3D3636;
+    grid-template-columns: 5fr 5fr 5fr;
+}
+
+.no-ai {
+    margin: 15px 0 15px 27px;
+}
+
+.btn-footer {
+    background: #FF7F00;
+    color: #fff;
+    display:flex;
+    align-items: center;
+    gap: 26px;
+    padding: 8px 40px 8px 16px;
+    margin-right: 27px;
+    float: right
 }
