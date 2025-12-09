@@ -4,5 +4,4 @@
 1. Запустите index.html
 2. Готово
 
-Сайт можно найти на github pages по ссылке:
-(Скоро будет)
+Сайт можно найти на [github pages](https://zerok42.github.io/my-website/)
