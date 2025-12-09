@@ -79,7 +79,7 @@ header.logo {
 
 .hero-container {
     position: relative;
-    margin-top: 12.5vh;
+    margin-top: 17.5vh;
     overflow:hidden;
     display: grid;
     grid-template-columns: 5fr 5fr;
@@ -134,7 +134,7 @@ header.logo {
 }
 
 .about-me {
-    margin-top: 23.149vh;
+    margin-top: 55vh;
 }
 
 .about-me-header {
