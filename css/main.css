@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: #fff;
+    font-size: 0.83vw
+}
+
+::-webkit-scrollbar {
+    width:10px;
+}
+
+::-webkit-scrollbar-track {
+    background: rgba(0,0,0,1);
+}
+
+::-webkit-scrollbar-thumb {
+    background: #fff;
+    border-radius: 1px
+}
+
+a {
+    text-decoration: none;
+}
+
+.logo-image {
+    max-width: 100%;
+}
+
+.wrapper {
+    background: linear-gradient(180deg, #000000 2%, #3D1F1F 100%);
+    width: 100%;
+}
+
+.paragraph-about {
+    font-size: 2.08vw;
+    font-weight: 700;
+    color: #fff;
+}
+
+.about-me-header {
+    font-size: 5vw;
+    font-weight: 900;
+    color: #fff
+}
+
+.btn1 {
+    font-size: 1.5625vw;
+    font-weight: 800;
+    color: #fff;
+    background-color: #FF7F00;
+    padding: 0.7292vw 1.09375vw 0.7292vw 1.09375vw;
+    border-radius: 1.30208vw;
+    transition: transform 0.5s;
+}
+
+.btn1:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+header.logo {
+    text-transform: uppercase;
+    font-size: 2.5vw;
+    font-weight: 900;
+    padding-top: 5,463vh;
+    padding-left: 5vw;
+}
+
+.hero-container {
+    position: relative;
+    margin-top: 12.5vh;
+    overflow:hidden;
+    display: grid;
+    grid-template-columns: 5fr 5fr;
+}
+
+.hero--info {
+    padding-left: 5vw;
+    display: flex;
+    flex-direction: column;
+    padding-top: 1.389vh;
+    align-items: start;
+}
+
+.hero--info h2 {
+    color: #FF7F00;
+    font-size: 2.083vw;
+    font-weight: 800;
+}
+
+.hero--info h1 {
+    font-size: 6.667vw;
+    font-weight: 900;
+}
+
+.hero--info p {
+    font-size: 1.66667vw;
+    font-weight: 600;
+}
+
+.hero--info .btn {
+    background: #FF7F00;
+    color: #fff;
+    border-radius: 1.30208vw;
+    margin-top: 11.574vh;
+    padding: 2.3148vw 3.125vh;
+    border: none;
+    transition: transform 0.5s;
+    font-size: 1.875vw;
+    font-weight: 800;
+    margin-bottom: 1.3889vh;
+}
+
+.hero--info .btn:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.hero--image {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 0.926vh;
+}
+
+.about-me {
+    margin-top: 23.149vh;
+}
+
+.about-me-header {
+    text-align: center;
+}
+
+.info1-start {
+    display: flex;
+    align-items: center;
+    gap: 4.1667vw;
+}
+
+.info1-start>img {
+    max-height: 13.0208vw;
+}
+
+.info1-end {
+    display: flex;
+    align-items: center;
+    gap: 1.5104vw;
+    justify-content: flex-end;
+}
+
+.info1-end>div {
+    display: flex;
+    flex-direction: column;
+    gap: 2.23958vw;
+}
+
+.info1-end>img {
+    max-width: 29.9479vw;
+}
+
+
+.info2-start {
+    display: flex;
+    align-items: center;
+    gap: 1.82292vw;
+    margin-top: 3.33333vw;
+}
+
+.info2-start>img {
+    max-width: 17.5vw;
+}
+
+.info2-end {
+    display:flex;
+    align-content: center;
+    gap:2.34375vw;
+    justify-content: flex-end;
+    margin-top: 5.2vw;
+}
+
+.info2-end>div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2.5vw;
+}
+
+.info2-end>img {
+    max-width: 26.19792vw;
+}
+
+.info3 {
+    display: flex;
+    justify-content: center;
+    margin-top: 10.41667vw;
+    margin-bottom: 5.5556vh;
+}
+
+.info3>div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info3>div>p {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 0.78125vw;
+    text-align: center;
+    padding: 0.5208333vw 0.5208vw;
+    margin-bottom: 0.5208333vw
+}
+
+.info3 img {
+    max-width: 11.21041667vw;
+}
+
+footer {
+    background: #160B0B;
+    display: grid;
+    text-align: center;
+    align-items: center;
+    font-size: 1.66667vw;
+    font-weight: 600;
+    color: #3D3636;
+    grid-template-columns: 5fr 5fr 5fr;
+}
+
+.no-ai {
+    margin: 0.78125vw 0 0.78125vw 1.40625vw;
+    max-width: 6.40625vw;
+}
+
+.btn-footer {
+    background: #FF7F00;
+    color: #fff;
+    display:flex;
+    align-items: center;
+    gap: 1.3542vw;
+    padding: 0.416667vw 2.0833vw 0.416667vw 0.83333vw;
+    margin-right: 1.40625vw;
+    float: right
+}
+
+.btn-footer>img {
+    max-width: 3.645833vw;
+}
