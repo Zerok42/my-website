@@ -5,6 +5,10 @@
     padding: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
@@ -57,7 +61,7 @@ a {
     background-color: #FF7F00;
     padding: 0.7292vw 1.09375vw 0.7292vw 1.09375vw;
     border-radius: 1.30208vw;
-    /* transition: all 500ms ease; */
+    transition: transform 0.5s;
 }
 
 .btn1:hover {
@@ -112,7 +116,7 @@ header.logo {
     margin-top: 11.574vh;
     padding: 2.3148vw 3.125vh;
     border: none;
-    /* transition: all 500ms ease; */
+    transition: transform 0.5s;
     font-size: 1.875vw;
     font-weight: 800;
     margin-bottom: 1.3889vh;
